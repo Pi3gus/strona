@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: hsl(180, 20%, 60%);
+    color: white;
+}
+.container{
+    width: 70rem;
+    margin: 2rem auto;
+    background-color: hsl(167, 39%, 93%);
+    color: black;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 8px -2px;
+    
+}   
+.nav{
+    background-color: hsl(187, 100%, 20%);
+    text-align: center;
+    padding: 3rem;
+    border-radius: 13px 13px 0 0 ;
+}
+img{
+    width: 15rem;
+    border-radius: 13px;
+}
+.content-1,
+.content-2,
+.content-3,
+.content-4,
+.content-5,
+.content-6{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.content-2,
+.content-4,
+.content-6{
+    flex-direction: row-reverse;
+}
+a:link, a:visited {
+    margin-top: 2.5rem;
+    background-color: hsl(187, 80%, 18%);
+    color: hsl(0, 4%, 69%);
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 0 5px 1px rgb(116, 116, 116);
+    transition: 0.3s;
+}
+a:hover{
+    background-color: hsl(186, 90%, 24%);
+    box-shadow: 0 0 5px 1px inset black;
+    
+}
+.content-1{
+    background-color: hsl(180, 20%, 60%);
+}
+.content-2{
+    background-color: hsl(180, 20%, 60%);
+}
+
+.content-3{
+    background-color: hsl(180, 20%, 60%);
+}
+
+.content-4{
+    background-color: hsl(180, 20%, 60%);
+}
+
+.content-5{
+    background-color: hsl(180, 20%, 60%);
+}
+.content-6{
+    background-color: hsl(180, 20%, 60%);
+    border-radius: 0 0 13px 13px;
+}
+
